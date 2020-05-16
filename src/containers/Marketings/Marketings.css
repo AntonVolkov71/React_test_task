@@ -1,0 +1,13 @@
+.Marketings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    flex-grow: 1;
+    width: 100%;
+    background: #8adfe6;
+}
+.Marketings h1{
+  font-weight: bold;
+}

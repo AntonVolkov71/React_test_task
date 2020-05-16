@@ -1,0 +1,11 @@
+.Rows th {
+  padding: 20px 10px;
+}
+.Rows {
+  transition: all 0.3s ease-in-out;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.Rows:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
