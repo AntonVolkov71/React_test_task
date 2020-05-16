@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import classes from './Marketings.css'
+import './Marketings.css'
+
 
 export default class Marketings extends Component {
 
@@ -10,8 +11,8 @@ export default class Marketings extends Component {
 
   render() {
     return (
-      <div className={ classes.Marketings}>
-        dfdfdff
+      <div className='Marketings'>
+       <h1>Task</h1> 
       </div>
     )
   }

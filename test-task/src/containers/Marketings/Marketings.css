@@ -1,9 +1,11 @@
-
 .Marketings {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 10px;
     flex-grow: 1;
     width: 100%;
-    background: linear-gradient(90deg, #5041b2 0%, #7969e6 100%);
+    background: #8adfe6;
+}
+.Marketings h1{
+  font-weight: bold;
 }
