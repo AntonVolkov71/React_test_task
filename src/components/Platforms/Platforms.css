@@ -1,0 +1,39 @@
+.Platforms {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  flex-grow: 1;
+  width: 80%;
+  background: #fff;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Platforms > div {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+}
+  
+.Platforms th, td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.Platforms th  {
+  width: calc((100% - 60%) / 3);
+}
+.Platforms th:first-child, td:first-child {
+  text-align: start;
+  width: 60%;
+}
+
+.Platforms table {
+  width: 100%;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-color: grey;
+}

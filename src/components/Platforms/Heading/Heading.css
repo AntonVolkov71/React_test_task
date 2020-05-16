@@ -1,0 +1,45 @@
+.Heading td:first-child {
+  padding: 10px 0 10px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Heading td {
+  color: rgba(0, 0, 0, 0.3);
+  font-style: italic;
+}
+
+.Heading td > span:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 5px;
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+
+.Heading button:first-child {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 3px solid transparent;
+  border-bottom: 5px solid #ddd;
+  outline: none;
+}
+
+.Heading span:last-child button:last-child {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 3px solid transparent;
+  border-top: 5px solid #ddd;
+  outline: none;
+}
+
+.Heading td > span:first-child {
+  line-height: 7px;
+}
+
