@@ -1,15 +1,23 @@
 import React from 'react'
 import './Heading.css'
+import Radium from 'radium'
 
-const Heading = () => {
+const Heading = (props) => {
   return (
     <tr className='Heading'>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>3</td>
+      <td>Tool name
+        <span> 
+          <button id='top' onClick={props.onClick}></button>
+          <span>
+            <button id='bottom' onClick={props.onClick}></button>
+          </span>
+        </span>
+      </td>
+      <td>Used on</td>
+      <td>Type</td>
+      <td>Status</td>
     </tr>
   )
 }
 
-export default Heading
+export default Radium(Heading)

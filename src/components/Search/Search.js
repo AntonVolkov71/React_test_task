@@ -1,14 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Search.css'
-export default class Search extends Component {
-  render() {
-    return (
-      <div className='Search' >
+
+const Search = (props) => {
+  return (
+    <div className='Search' >
       <span role='img' aria-label='search'>&#128269;</span>
-        <input 
-          type='text'
-        />
-      </div>
-    )
-  }
+      <input
+        type='text'
+        value={props.value}
+        onChange={props.onChange}
+      />
+    </div>
+  )
 }
+
+export default Search

@@ -1,21 +1,22 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Platforms.css'
 
 import Heading from './Heading/Heading'
 import Rows from './Rows/Rows'
-export default class Platforms extends Component {
-  render() {
-    return (
-      <div className='Platforms'>
-        <table>
-          <thead>
-          <Heading />
-          <Rows/>
-            
-          </thead>
-        </table>
 
-      </div>
-    )
-  }
+const Platforms = (props) => {
+  const tools = props.tools
+
+  return (
+    <div className='Platforms'>
+      <table>
+        <thead>
+          <Heading onClick={props.onClick}/>
+          <Rows tools={tools} />
+        </thead>
+      </table>
+    </div>
+  )
 }
+
+export default Platforms

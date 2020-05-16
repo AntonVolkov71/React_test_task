@@ -7,6 +7,7 @@
     flex-grow: 1;
     width: 100%;
     background: #8adfe6;
+    height: auto;
 }
 .Marketings h1{
   font-weight: bold;

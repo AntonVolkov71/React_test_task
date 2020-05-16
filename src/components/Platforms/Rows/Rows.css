@@ -1,5 +1,6 @@
 .Rows th {
-  padding: 20px 10px;
+  font-weight: normal;
+  padding: 20px 0 20px 10px;
 }
 .Rows {
   transition: all 0.3s ease-in-out;
@@ -7,5 +8,9 @@
 }
 .Rows:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Rows th:nth-of-type(3) {
+  color: #edb262;
 }
 
